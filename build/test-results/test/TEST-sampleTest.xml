@@ -1,7 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="sampleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-03T08:52:01" hostname="TestVagrants-MacBook-Pro.local" time="0.005">
+<testsuite name="sampleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-03T09:50:12" hostname="TestVagrants-MacBook-Pro.local" time="3.088">
   <properties/>
-  <testcase name="doSomething" classname="sampleTest" time="0.005"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="shouldGetAllUsers" classname="sampleTest" time="3.088"/>
+  <system-out><![CDATA[[
+    {
+        "id": 3192,
+        "name": "Subhash Pothuvaal",
+        "email": "subhash_pothuvaal@connelly.net",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 3191,
+        "name": "Bishnu Kapoor",
+        "email": "kapoor_bishnu@jakubowski.biz",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 3188,
+        "name": "Rep. Swapnil Varman",
+        "email": "varman_rep_swapnil@schimmel-roob.biz",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 3185,
+        "name": "Gov. Bhupen Somayaji",
+        "email": "bhupen_somayaji_gov@howell.org",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 3184,
+        "name": "Kamala Dwivedi PhD",
+        "email": "phd_kamala_dwivedi@kilback.io",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 3183,
+        "name": "Indra Gill LLD",
+        "email": "indra_lld_gill@larkin.biz",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 3181,
+        "name": "Mr. Abhirath Trivedi",
+        "email": "abhirath_trivedi_mr@nolan.info",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 3180,
+        "name": "Tara Somayaji",
+        "email": "tara_somayaji@gulgowski.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 3177,
+        "name": "Triloki Nath Embranthiri V",
+        "email": "triloki_embranthiri_v_nath@braun.com",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 3176,
+        "name": "Rev. Bhadra Sinha",
+        "email": "rev_sinha_bhadra@ohara.co",
+        "gender": "male",
+        "status": "active"
+    }
+]
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
